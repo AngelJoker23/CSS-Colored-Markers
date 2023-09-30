@@ -1,0 +1,122 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: auto;
+    font-style: italic;
+    font-family: monospace, fantasy;
+    margin: 10px auto;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.marker{
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.cap{
+    width: 60px;
+    height: 25px;
+}
+
+.sleeve{
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 75%);
+}
+
+.cap, .sleeve{
+    display: inline-block;
+}
+
+.one{
+    background-color: rgba(255, 0, 0, 0.8);
+    box-shadow: 0 0 20px 0 red;
+}
+
+.two{
+    background-color: rgb(0, 255, 0);
+    box-shadow: 0 0 20px 0 green;
+}
+
+.three{
+    background-color: rgba(0, 0, 255, 0.8);
+    box-shadow: 0 0 20px 0 blue;
+}
+
+.four{
+    background-color: rgba(255, 255, 0, 0.8);
+    box-shadow: 0 0 20px 0 yellow;
+}
+
+.five{
+    background-color: rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 20px 0 rgb(0, 255, 255);
+}
+
+.six{
+    background-color: rgb(255, 0, 255);
+    box-shadow: 0 0 20px 0 rgb(255, 0, 255);
+}
+
+.seven{
+    background-color: rgb(255, 127, 0);
+    box-shadow: 0 0 20px 0 rgb(255, 127, 0);
+}
+
+.eight{
+    background-color: rgb(0, 255, 127);
+    box-shadow: 0 0 20px 0 rgb(0, 255, 127);
+}
+
+.nine{
+    background-color: rgb(0, 127, 0);
+    box-shadow: 0 0 20px 0 rgb(0, 127, 0);
+}
+
+.ten{
+    background-color: rgb(127, 0, 255);
+    box-shadow: 0 0 20px 0 rgb(127, 0, 255);
+}
+
+.eleven{
+    background-color: rgb(0, 127, 255);
+    box-shadow: 0 0 20px 0 rgb(0, 127, 255);
+}
+
+.twelve{
+    background-color: rgb(255, 0, 127);
+    box-shadow: 0 0 20px 0 rgb(255, 0, 127);
+}
+
+.thirteen{
+    background-color: rgb(127, 0, 127);
+    box-shadow: 0 0 20px 0 rgb(127, 0, 127);
+}
+
+.fourteen{
+    background-color: rgb(0, 127, 127);
+    box-shadow: 0 0 20px 0 rgb(0, 127, 127);
+}
+
+.fifteen{
+    background-color: rgb(127, 127, 0);
+    box-shadow: 0 0 20px 0 rgb(127, 127, 0);
+}
+
+.sixteen{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+}
+
+.colors{
+    background: linear-gradient( rgb(127, 0, 127), rgb(255, 0, 127), rgb(0, 127, 255));
+    box-shadow: 0 0 20px 0 rgb(0, 127, 255);
+}
